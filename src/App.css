@@ -1,0 +1,172 @@
+.encabezado {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_app {
+   color: rgb(0, 0, 190); 
+   margin-left: 10px;
+   font-weight: 700;
+}
+
+.contenedor_card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 50px;
+}
+
+
+
+
+
+
+
+.formuser_container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0003;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: transform 200ms ease;
+}
+
+.close_form {
+    transform: scale(0);
+}
+
+.formuser {
+    width: 100%;
+    max-width: 300px;
+    padding: 2em 1.5em 2.5em;
+    border-radius: 0.7em;
+    background-color: white;
+    position: relative;
+
+}
+
+.formuser_title {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.formuser_close {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 1em;
+    right: 1.5em;
+    cursor: pointer;
+}
+
+.formuser_close:hover{
+    color: red;
+}
+
+.formuser_grop {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.formuser_label {
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-left: 1em;
+}
+
+.formuser_input {
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    border: 0.1em solid #aaa;
+}
+
+.formuser_btn {
+    width: 100%;
+    max-width: 148px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: rgb(41, 41, 250);
+    border-color: rgb(41, 41, 250);
+    color: white;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-right: 10px;
+}
+
+.formuser_btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.contenedor_usercard {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid;
+    border-color: #aaa;
+    border-radius: 0.5em;
+    box-shadow: 3px 4px 4px gray;
+}
+
+/* .contenedor_usercard:hover {
+    transform: scale(1.04);
+} */
+
+.titulo_usercard {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 156);
+}
+
+.ul_usercard{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span1_usercard {
+    color: #8d8d8d;
+    font-size: 20px;
+}
+
+.span2_usercard{
+    color: rgb(0, 0, 156);
+    font-size: 17px;
+}
+
+.contenedor_btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 15px;
+}
+.boton_usercard {
+    background-color: rgb(41, 41, 250) ;
+    border-color: rgb(41, 41, 250);
+    border-radius: 0.5em;
+    padding: 0.3em 0.7em;
+    box-shadow: 3px 4px 4px gray;
+    /* box-shadow: 10px 1px 1px #000000; */
+}
+
+.boton_usercard:hover {
+    transform: scale(1.1);
+}
