@@ -9,7 +9,7 @@ function App() {
   const [infoUpdate, setInfoUpdate] = useState()
   const [closeForm, setCloseForm] = useState(true)
 
-  const baseUrl = 'https://entregable4-backend-dev-fqbd.3.us-1.fl0.io'
+  const baseUrl = 'https://entregable4-backend-dev-grhb.3.us-1.fl0.io'
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useFetch(baseUrl, setCloseForm)
 
   useEffect (() => {
